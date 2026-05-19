@@ -1,0 +1,44 @@
+.static-page { padding-bottom: var(--space-3xl); }
+.static-hero {
+  background: var(--gradient-dark); color: white; text-align: center;
+  padding: var(--space-3xl) var(--space-lg); margin-bottom: var(--space-2xl);
+}
+.static-hero h1 { font-size: 2.2rem; margin-bottom: var(--space-sm); }
+.static-hero p { font-size: 1.1rem; color: rgba(255,255,255,0.7); }
+.static-content { max-width: 900px; margin: 0 auto; }
+
+.content-block { margin-bottom: var(--space-2xl); }
+.content-block h2 { font-size: 1.5rem; margin-bottom: var(--space-lg); color: var(--color-secondary); }
+.content-block p { font-size: 0.95rem; line-height: 1.8; color: var(--color-text-secondary); margin-bottom: var(--space-md); }
+
+.features-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-xl); }
+.feature-item { padding: var(--space-xl); background: var(--color-bg-secondary); border-radius: var(--radius-md); }
+.feature-emoji { font-size: 2rem; display: block; margin-bottom: var(--space-md); }
+.feature-item h3 { font-size: 1.05rem; margin-bottom: var(--space-sm); color: var(--color-text); }
+.feature-item p { font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.6; margin: 0; }
+
+/* FAQ */
+.faq-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+.faq-item { border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; }
+.faq-question {
+  padding: 16px 20px; font-weight: 600; font-size: 1rem; cursor: pointer;
+  list-style: none; display: flex; align-items: center; justify-content: space-between;
+  transition: background var(--transition-fast);
+}
+.faq-question:hover { background: var(--color-bg-secondary); }
+.faq-question::after { content: '+'; font-size: 1.3rem; color: var(--color-primary); }
+.faq-item[open] .faq-question::after { content: '−'; }
+.faq-answer { padding: 0 20px 16px; font-size: 0.95rem; line-height: 1.7; color: var(--color-text-secondary); }
+
+/* Contact */
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2xl); }
+.contact-info-block h2, .contact-form-block h2 { font-size: 1.3rem; margin-bottom: var(--space-xl); color: var(--color-secondary); }
+.contact-detail { margin-bottom: var(--space-lg); }
+.contact-detail h3 { font-size: 1rem; margin-bottom: 4px; }
+.contact-detail p { color: var(--color-text-secondary); }
+
+@media (max-width: 768px) {
+  .features-grid { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .static-hero h1 { font-size: 1.6rem; }
+}
