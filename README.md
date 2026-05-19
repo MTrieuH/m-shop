@@ -52,8 +52,8 @@ npm run dev
 ## 📸 Screenshots
 
 **Trang chủ** *(Mobile View)*
-<img src="screenshots/home_page_mobile_view.png" alt="Trang chủ Mobile">
-<p><em>Giao diện trang chủ cho mobile — danh sách sản phẩm Gundam</em></p>
+<img src="screenshots/home_page_mobile_view.png" alt="Trang chủ Mobile" height="400">
+<p><em>Giao diện trang chủ tối ưu cho mobile — danh sách sản phẩm Gundam</em></p>
 
 ---
 
