@@ -49,11 +49,21 @@ npm install
 npm run dev
 ```
 
-## 📸 Screenshots
+### 📸 Screenshots
+
+##Trang chủ Mobile
 ![Trang chủ Mobile](screenshots/home_page_mobile_view.png)
+
+##Sản phẩm
 ![Sản phẩm](screenshots/product_listing.png)
+
+##Dashboard
 ![Dashboard](screenshots/admin_products_list.png)
+
+##Đăng nhập
 ![Đăng nhập](screenshots/customer_register.png)
+
+##Lịch sự kiện
 ![Lịch sự kiện](screenshots/restock_schedule.png)
 
 ---
