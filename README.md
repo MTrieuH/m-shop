@@ -49,5 +49,12 @@ npm install
 npm run dev
 ```
 
+## 📸 Screenshots
+![Trang chủ Mobile](screenshots/home_page_mobile_view.png)
+![Sản phẩm](screenshots/product_listing.png)
+![Dashboard](screenshots/admin_products_list.png)
+![Đăng nhập](screenshots/customer_register.png)
+![Lịch sự kiện](screenshots/restock_schedule.png)
+
 ---
 *Dự án được xây dựng với mục đích học tập và làm Portfolio.*
