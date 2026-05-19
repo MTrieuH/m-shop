@@ -49,22 +49,23 @@ npm install
 npm run dev
 ```
 
-### 📸 Screenshots
+## 📸 Screenshots
 
-##Trang chủ Mobile
+**Trang chủ** *(Mobile View)*
 ![Trang chủ Mobile](screenshots/home_page_mobile_view.png)
+*Giao diện trang chủ cho mobile — danh sách sản phẩm Gundam*
 
-##Sản phẩm
-![Sản phẩm](screenshots/product_listing.png)
+---
 
-##Dashboard
-![Dashboard](screenshots/admin_products_list.png)
+| Danh sách sản phẩm | Admin Dashboard |
+|---|---|
+| ![](screenshots/product_listing.png) | ![](screenshots/admin_products_list.png) |
+| Trang sản phẩm với bộ lọc | Quản lý sản phẩm cho admin |
 
-##Đăng nhập
-![Đăng nhập](screenshots/customer_register.png)
-
-##Lịch sự kiện
-![Lịch sự kiện](screenshots/restock_schedule.png)
+| Đăng ký/Đăng nhập tài khoản | Lịch restock |
+|---|---|
+| ![](screenshots/customer_register.png) | ![](screenshots/restock_schedule.png) |
+| Form đăng ký khách hàng | Lịch nhập hàng & sự kiện |
 
 ---
 *Dự án được xây dựng với mục đích học tập và làm Portfolio.*
